@@ -1,0 +1,4 @@
+#!/bin/bash
+set -e
+export CATALINA_HOME=/opt/tomcat/apache-tomcat-8.5.29
+$CATALINA_HOME/bin/shutdown.sh
